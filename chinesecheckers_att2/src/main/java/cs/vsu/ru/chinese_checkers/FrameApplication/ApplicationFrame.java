@@ -1,6 +1,7 @@
 package cs.vsu.ru.chinese_checkers.FrameApplication;
 
 import cs.vsu.ru.chinese_checkers.Game.ChineseCheckersGame;
+import cs.vsu.ru.chinese_checkers.Utils.ScriptedCommandsProvider;
 import cs.vsu.ru.chinese_checkers.serialization.GameSerialization;
 import javafx.application.Application;
 import javafx.scene.*;
@@ -19,8 +20,8 @@ import java.io.IOException;
 import java.nio.file.FileSystems;
 import java.util.Arrays;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
-
 
 public class ApplicationFrame extends Application {
 
@@ -39,45 +40,6 @@ public class ApplicationFrame extends Application {
         primaryStage.setTitle("CheckersApp");
         primaryStage.setScene(scene);
         primaryStage.show();
-
-        /*
-        scene.addEventFilter(MouseEvent.MOUSE_PRESSED, mouseEvent -> {
-            CheckersNode target = (CheckersNode) mouseEvent.getTarget();
-            selectedNode = (target.getNodeNum());
-            System.out.println("mouse pressed");
-        });
-        scene.addEventFilter(MouseEvent.MOUSE_RELEASED, mouseEvent -> {
-            CheckersNode target = (CheckersNode) mouseEvent.getTarget();
-            game.move(selectedNode, target.getNodeNum());
-            refreshBoard();
-            System.out.println("mouse released");
-
-        });
-
-        scene.setOnDragDetected(new EventHandler<DragEvent>() {
-            @Override
-            public void handle(DragEvent event) {
-                CheckersNode target = (CheckersNode) event.getTarget();
-                selectedNode = (target.getNodeNum());
-            }
-        });
-
-        scene.setOnDragDropped(new EventHandler<DragEvent>() {
-            @Override
-            public void handle(DragEvent event) {
-                CheckersNode target = (CheckersNode) event.getTarget();
-                if (game.move(selectedNode, target.getNodeNum())){
-                    event.setDropCompleted(true);
-                    refreshBoard();
-                }
-                else {
-                    event.setDropCompleted(false);
-                }
-            }
-        });
-
-
- */
     }
 
     private Parent startNewGame(int players){
@@ -110,83 +72,42 @@ public class ApplicationFrame extends Application {
         for (int i = 0; i < boardArr.length; i++) {
             for (int j = 0; j < boardArr[i].length; j++) {
                 if (boardArr[i][j] != -1) {
-
-
-                    //Text text = new Text(Integer.toString(boardArr[i][j]));
-
                     final CheckersNode node = new CheckersNode(boardArr[i][j], game.getCheckerPlayer(boardArr[i][j]));
                     node.setPickOnBounds(true);
                     node.setOnDragDetected(event -> {
                         node.startFullDrag();
                         selectedNode = node.getNodeNum();
-                        System.out.println("mouse pressed on " + selectedNode);
                     });
-                    //this.addEventHandler(MouseEvent.MOUSE_RELEASED, event -> {            });
                     node.setOnMouseDragReleased(event ->{
                         CheckersNode target = (CheckersNode) event.getTarget();
-                        if (game.move(selectedNode, target.getNodeNum())){
-                            System.out.println("move from " + selectedNode + " to " + target.getNodeNum());
-                        }
-                        refreshBoard();
-                        System.out.println("mouse released");
+                        move(selectedNode, target.getNodeNum());
                     });
-
-                    gameBoard.add(node, j + 1, i);
+                    gameBoard.add(node, j + 2, i);
                 }
             }
         }
-        Button settings = new Button("Settings");
+        Button settings = new Button("Настройки");
         settings.setOnAction(settingsEvent ->{
             GameSettings gameSettings = new GameSettings();
             gameSettings.show();
         });
         settings.setPickOnBounds(false);
         gameBoard.add(settings, 0, 0);
-        /*
-        FXCollections.sort(gameBoard.getChildren(), new Comparator<Node>() {
-            @Override
-            public int compare(Node o1, Node o2) {
-                CheckersNode n1 = (CheckersNode) o1;
-                CheckersNode n2 = (CheckersNode) o2;
-                return Integer.compare(n1.getNodeNum(), n2.getNodeNum());
-            }
+        Button nextTurn = new Button("Сдать ход");
+        nextTurn.setOnAction(settingsEvent ->{
+            game.nextTurn();
+            log.info("Ход перешёл к игроку " + game.checkTurn());
         });
-
-
-        ObservableList<Node> sortedCollection = FXCollections.observableArrayList(gameBoard.getChildren());
-        int i = 0;
-        while (i < 120){
-            while (((CheckersNode) sortedCollection.get(i)).getNodeNum() != i) {
-                Collections.swap(sortedCollection, i, ((CheckersNode) sortedCollection.get(i)).getNodeNum());
-            }
-                i++;
-        }
-        gameBoard.getChildren().setAll(sortedCollection);
-         */
+        gameBoard.add(nextTurn, 1, 0);
         gameBoard.setVgap(15);
-        /*
-        gameBoard.setOnDragDetected(dragEvent -> {
-            gameBoard.startFullDrag();
-            selectedNode = ((CheckersNode) dragEvent.getTarget()).getNodeNum();
-            System.out.println("mouse pressed on " + selectedNode);
-        });
-        gameBoard.setOnMouseDragReleased(event -> {
-            CheckersNode target = (CheckersNode) event.getTarget();
-            System.out.println("mouse released");
-            if (game.move(selectedNode, target.getNodeNum())){
-                System.out.println("move from " + selectedNode + " to " + target.getNodeNum());
-            }
-            refreshBoard();
-        });
 
-         */
         gameBoard.setPickOnBounds(false);
         return gameBoard;
     }
 
     private void refreshBoard(){
         GridPane board = (GridPane) scene.getRoot();
-        for (int i = 0; i < 120; i++) {
+        for (int i = 0; i < 121; i++) {
             ((CheckersNode) board.getChildren().get(i)).setChecker(game.getCheckerPlayer((((CheckersNode) board.getChildren().get(i)).getNodeNum())));
         }
 
@@ -200,29 +121,6 @@ public class ApplicationFrame extends Application {
             this.setStroke(Color.BLACK);
             setChecker(player);
             nodeNum = num;
-
-            /*
-            this.setOnMousePressed(new EventHandler<MouseEvent>() {
-                @Override
-                public void handle(MouseEvent mouseEvent) {
-                    CheckersNode target = (CheckersNode) mouseEvent.getTarget();
-                    selectedNode = (target.getNodeNum());
-                    System.out.println("mouse pressed");
-                }
-            });
-            this.setOnDragDetected(new EventHandler<DragEvent>() {
-                @Override
-                public void handle(DragEvent dragEvent) {
-                    CheckersNode target = (CheckersNode) mouseEvent.getTarget();
-                    if (game.move(selectedNode, target.getNodeNum())){
-                        System.out.println("move from " + selectedNode + " to " + target.getNodeNum());
-                    }
-                    refreshBoard();
-                    System.out.println("mouse released");
-                }
-            });
-
-             */
         }
         public int getNodeNum(){
             return nodeNum;
@@ -260,6 +158,7 @@ public class ApplicationFrame extends Application {
             }
         }
     }
+
     public class GameSettings extends Stage{
         public GameSettings(){
             this.setTitle("Settings");
@@ -321,9 +220,38 @@ public class ApplicationFrame extends Application {
                 }
             });
             settingsPane.addRow(3, fileName, saveButton, loadButton);
+            Button demoPlay = new Button("Демонстрационная игра");
+            demoPlay.setOnAction(demo ->{
+                log.info("Началась демонстрационная игра");
+                demoPlay();
+            });
+            settingsPane.addRow(1, demoPlay);
             Scene s = new Scene(settingsPane);
             this.setScene(s);
         }
     }
-}
 
+    private void demoPlay() {
+        ScriptedCommandsProvider scp = new ScriptedCommandsProvider();
+        String commandLine = "null";
+        int cell;
+        while (commandLine != null){
+            commandLine = scp.getNextLine();
+            if (!commandLine.equals("next")){
+                cell = Integer.parseInt(commandLine);
+                selectedNode = cell;
+                commandLine = scp.getNextLine();
+                cell = Integer.parseInt(commandLine);
+                move(selectedNode, cell);
+            }
+            else {
+                game.nextTurn();
+            }
+        }
+    }
+
+    private void move(int i, int j) {
+        game.move(i, j);
+        refreshBoard();
+    }
+}

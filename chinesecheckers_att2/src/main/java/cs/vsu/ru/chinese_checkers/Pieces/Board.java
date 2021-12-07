@@ -29,8 +29,8 @@ public class Board {
     }
     public boolean connectedOverOne(int i, int k){
         for (Integer l : boardGraph.adjacency(i)) {
-            if (checkChecker(l) == checkChecker(i)) {
-                if (boardGraph.isAdj(k, l)) {
+            if (checkChecker(l) != null) {
+                if (checkChecker(l).player() == checkChecker(i).player() && boardGraph.isAdj(k, l)) {
                     return true;
                 }
             }

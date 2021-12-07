@@ -75,7 +75,7 @@ public class GameSerialization {
         objectMapper.setVisibility(PropertyAccessor.FIELD, JsonAutoDetect.Visibility.ANY);
         File savesDir = FileSystems.getDefault().getPath("saves").toAbsolutePath().toFile();
         if (savesDir.mkdir()) {
-            log.info("Made saves directory " + savesDir.getAbsolutePath());
+            log.info("Saves directory created" + savesDir.getAbsolutePath());
         }
         File save = new File(savesDir.getAbsolutePath(), saveName + ".json");
         if (save.createNewFile()) {

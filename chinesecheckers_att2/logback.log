@@ -353,3 +353,207 @@
 07.12.2021 20:32:02.503 INFO   c.v.r.c.G.ChineseCheckersGame - 1 player's checker 99 successfully moved at position 95
 07.12.2021 20:32:03.661 INFO   c.v.r.c.G.ChineseCheckersGame - 0 player's checker 68 successfully moved at position 64
 07.12.2021 20:32:05.929 INFO   c.v.r.c.Main - Application closed
+07.12.2021 21:15:09.740 INFO   c.v.r.c.Main - Application started
+07.12.2021 21:15:11.524 INFO   c.v.r.c.G.ChineseCheckersGame - Board initialized
+07.12.2021 21:15:11.589 INFO   c.v.r.c.G.ChineseCheckersGame - Game started.
+07.12.2021 21:15:11.590 INFO   c.v.r.c.G.ChineseCheckersGame - Game initialized.
+07.12.2021 21:15:24.872 INFO   c.v.r.c.G.ChineseCheckersGame - Board initialized
+07.12.2021 21:15:24.872 INFO   c.v.r.c.G.ChineseCheckersGame - Game started.
+07.12.2021 21:15:24.872 INFO   c.v.r.c.G.ChineseCheckersGame - Game initialized.
+07.12.2021 21:15:27.090 INFO   c.v.r.c.Main - Application closed
+07.12.2021 21:18:47.815 INFO   c.v.r.c.Main - Application started
+07.12.2021 21:18:48.725 INFO   c.v.r.c.G.ChineseCheckersGame - Board initialized
+07.12.2021 21:18:48.726 INFO   c.v.r.c.G.ChineseCheckersGame - Game started.
+07.12.2021 21:18:48.726 INFO   c.v.r.c.G.ChineseCheckersGame - Game initialized.
+07.12.2021 21:18:51.952 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 4 is not current player's checker
+07.12.2021 21:18:53.256 INFO   c.v.r.c.G.ChineseCheckersGame - 1 player's checker 33 successfully moved at position 98
+07.12.2021 21:19:34.826 INFO   c.v.r.c.Main - Application closed
+07.12.2021 21:19:37.198 INFO   c.v.r.c.Main - Application started
+07.12.2021 21:19:38.052 INFO   c.v.r.c.G.ChineseCheckersGame - Board initialized
+07.12.2021 21:19:38.054 INFO   c.v.r.c.G.ChineseCheckersGame - Game started.
+07.12.2021 21:19:38.054 INFO   c.v.r.c.G.ChineseCheckersGame - Game initialized.
+07.12.2021 21:19:42.348 INFO   c.v.r.c.G.ChineseCheckersGame - 1 player's checker 37 successfully moved at position 98
+07.12.2021 21:19:43.808 INFO   c.v.r.c.G.ChineseCheckersGame - 0 player's checker 5 successfully moved at position 68
+07.12.2021 21:19:44.903 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 98 is not current player's checker
+07.12.2021 21:19:46.404 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 98 is not current player's checker
+07.12.2021 21:19:49.925 INFO   c.v.r.c.Main - Application closed
+07.12.2021 21:22:02.447 INFO   c.v.r.c.Main - Application started
+07.12.2021 21:22:03.414 INFO   c.v.r.c.G.ChineseCheckersGame - Board initialized
+07.12.2021 21:22:03.415 INFO   c.v.r.c.G.ChineseCheckersGame - Game started.
+07.12.2021 21:22:03.415 INFO   c.v.r.c.G.ChineseCheckersGame - Game initialized.
+07.12.2021 21:22:06.348 INFO   c.v.r.c.G.ChineseCheckersGame - 1 player's checker 34 successfully moved at position 97
+07.12.2021 21:22:07.808 INFO   c.v.r.c.G.ChineseCheckersGame - Move from 97 to 94 is not possible.
+07.12.2021 21:22:09.306 INFO   c.v.r.c.G.ChineseCheckersGame - Move from 97 to 94 is not possible.
+07.12.2021 21:22:10.058 INFO   c.v.r.c.G.ChineseCheckersGame - Move from 97 to 93 is not possible.
+07.12.2021 21:22:12.159 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 9 is not current player's checker
+07.12.2021 21:22:12.741 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 9 is not current player's checker
+07.12.2021 21:22:15.086 INFO   c.v.r.c.Main - Application closed
+07.12.2021 21:22:37.980 INFO   c.v.r.c.Main - Application started
+07.12.2021 21:22:38.858 INFO   c.v.r.c.G.ChineseCheckersGame - Board initialized
+07.12.2021 21:22:38.859 INFO   c.v.r.c.G.ChineseCheckersGame - Game started.
+07.12.2021 21:22:38.859 INFO   c.v.r.c.G.ChineseCheckersGame - Game initialized.
+07.12.2021 21:22:42.455 INFO   c.v.r.c.Main - Application closed
+07.12.2021 21:24:03.042 INFO   c.v.r.c.Main - Application started
+07.12.2021 21:24:03.925 INFO   c.v.r.c.G.ChineseCheckersGame - Board initialized
+07.12.2021 21:24:03.926 INFO   c.v.r.c.G.ChineseCheckersGame - Game started.
+07.12.2021 21:24:03.926 INFO   c.v.r.c.G.ChineseCheckersGame - Game initialized.
+07.12.2021 21:24:26.148 INFO   c.v.r.c.Main - Application started
+07.12.2021 21:24:27.043 INFO   c.v.r.c.G.ChineseCheckersGame - Board initialized
+07.12.2021 21:24:27.044 INFO   c.v.r.c.G.ChineseCheckersGame - Game started.
+07.12.2021 21:24:27.044 INFO   c.v.r.c.G.ChineseCheckersGame - Game initialized.
+07.12.2021 21:24:32.639 INFO   c.v.r.c.G.ChineseCheckersGame - 1 player's checker 33 successfully moved at position 98
+07.12.2021 21:24:33.693 INFO   c.v.r.c.G.ChineseCheckersGame - Move from 98 to 95 is not possible.
+07.12.2021 21:24:34.219 INFO   c.v.r.c.G.ChineseCheckersGame - Move from 98 to 95 is not possible.
+07.12.2021 21:24:37.147 INFO   c.v.r.c.G.ChineseCheckersGame - 0 player's checker 7 successfully moved at position 69
+07.12.2021 21:24:38.776 INFO   c.v.r.c.Main - Application closed
+07.12.2021 21:28:05.874 INFO   c.v.r.c.Main - Application started
+07.12.2021 21:28:06.859 INFO   c.v.r.c.G.ChineseCheckersGame - Board initialized
+07.12.2021 21:28:06.859 INFO   c.v.r.c.G.ChineseCheckersGame - Game started.
+07.12.2021 21:28:06.859 INFO   c.v.r.c.G.ChineseCheckersGame - Game initialized.
+07.12.2021 21:28:09.471 INFO   c.v.r.c.G.ChineseCheckersGame - 0 player's checker 7 successfully moved at position 69
+07.12.2021 21:28:10.979 INFO   c.v.r.c.G.ChineseCheckersGame - 1 player's checker 33 successfully moved at position 98
+07.12.2021 21:28:12.579 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 4 is not current player's checker
+07.12.2021 21:28:13.539 INFO   c.v.r.c.F.ApplicationFrame - Ход перешёл к игроку 0
+07.12.2021 21:28:14.724 INFO   c.v.r.c.G.ChineseCheckersGame - 0 player's checker 4 successfully moved at position 67
+07.12.2021 21:28:18.079 INFO   c.v.r.c.G.ChineseCheckersGame - Move from 67 to 64 is not possible.
+07.12.2021 21:28:19.213 INFO   c.v.r.c.F.ApplicationFrame - Ход перешёл к игроку 1
+07.12.2021 21:28:28.853 INFO   c.v.r.c.G.ChineseCheckersGame - 1 player's checker 31 successfully moved at position 31
+07.12.2021 21:28:32.012 INFO   c.v.r.c.G.ChineseCheckersGame - 1 player's checker 34 successfully moved at position 99
+07.12.2021 21:28:33.157 INFO   c.v.r.c.G.ChineseCheckersGame - 1 player's checker 99 successfully moved at position 97
+07.12.2021 21:28:35.494 INFO   c.v.r.c.F.ApplicationFrame - Ход перешёл к игроку 0
+07.12.2021 21:28:37.202 INFO   c.v.r.c.G.ChineseCheckersGame - 0 player's checker 6 successfully moved at position 65
+07.12.2021 21:28:39.999 INFO   c.v.r.c.Main - Application closed
+07.12.2021 22:35:59.458 INFO   c.v.r.c.Main - Application started
+07.12.2021 22:36:00.813 INFO   c.v.r.c.G.ChineseCheckersGame - Board initialized
+07.12.2021 22:36:00.856 INFO   c.v.r.c.G.ChineseCheckersGame - Game started.
+07.12.2021 22:36:00.857 INFO   c.v.r.c.G.ChineseCheckersGame - Game initialized.
+07.12.2021 22:36:06.976 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 36 is not current player's checker
+07.12.2021 22:36:09.496 INFO   c.v.r.c.G.ChineseCheckersGame - 0 player's checker 5 successfully moved at position 68
+07.12.2021 22:36:13.875 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 33 is not current player's checker
+07.12.2021 22:36:15.796 INFO   c.v.r.c.F.ApplicationFrame - Ход перешёл к игроку 1
+07.12.2021 22:36:17.235 INFO   c.v.r.c.G.ChineseCheckersGame - 1 player's checker 33 successfully moved at position 98
+07.12.2021 22:36:20.150 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 2 is not current player's checker
+07.12.2021 22:36:21.559 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 4 is not current player's checker
+07.12.2021 22:36:23.083 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 4 is not current player's checker
+07.12.2021 22:36:24.079 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 4 is not current player's checker
+07.12.2021 22:36:26.912 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 4 is not current player's checker
+07.12.2021 22:36:27.848 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 4 is not current player's checker
+07.12.2021 22:36:28.632 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 7 is not current player's checker
+07.12.2021 22:36:29.360 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 7 is not current player's checker
+07.12.2021 22:36:31.075 INFO   c.v.r.c.G.ChineseCheckersGame - 1 player's checker 38 successfully moved at position 97
+07.12.2021 22:36:33.650 INFO   c.v.r.c.G.ChineseCheckersGame - 0 player's checker 4 successfully moved at position 67
+07.12.2021 22:36:41.704 INFO   c.v.r.c.Main - Application closed
+07.12.2021 22:38:06.039 INFO   c.v.r.c.Main - Application started
+07.12.2021 22:38:07.105 INFO   c.v.r.c.G.ChineseCheckersGame - Board initialized
+07.12.2021 22:38:07.132 INFO   c.v.r.c.G.ChineseCheckersGame - Game started.
+07.12.2021 22:38:07.132 INFO   c.v.r.c.G.ChineseCheckersGame - Game initialized.
+07.12.2021 22:38:18.053 INFO   c.v.r.c.F.ApplicationFrame - Началась демонстрационная игра
+07.12.2021 22:39:19.264 INFO   c.v.r.c.Main - Application started
+07.12.2021 22:39:20.084 INFO   c.v.r.c.G.ChineseCheckersGame - Board initialized
+07.12.2021 22:39:20.085 INFO   c.v.r.c.G.ChineseCheckersGame - Game started.
+07.12.2021 22:39:20.085 INFO   c.v.r.c.G.ChineseCheckersGame - Game initialized.
+07.12.2021 22:39:23.012 INFO   c.v.r.c.F.ApplicationFrame - Началась демонстрационная игра
+07.12.2021 22:39:28.050 INFO   c.v.r.c.G.ChineseCheckersGame - Move from 4 to 99 is not possible.
+07.12.2021 22:40:04.407 INFO   c.v.r.c.Main - Application started
+07.12.2021 22:40:04.593 INFO   c.v.r.c.Main - Application closed
+07.12.2021 22:40:05.607 INFO   c.v.r.c.G.ChineseCheckersGame - Board initialized
+07.12.2021 22:40:05.608 INFO   c.v.r.c.G.ChineseCheckersGame - Game started.
+07.12.2021 22:40:05.608 INFO   c.v.r.c.G.ChineseCheckersGame - Game initialized.
+07.12.2021 22:40:08.431 INFO   c.v.r.c.F.ApplicationFrame - Началась демонстрационная игра
+07.12.2021 22:40:13.443 INFO   c.v.r.c.G.ChineseCheckersGame - Move from 4 to 99 is not possible.
+07.12.2021 22:40:55.371 INFO   c.v.r.c.Main - Application closed
+07.12.2021 22:47:02.936 INFO   c.v.r.c.Main - Application started
+07.12.2021 22:47:04.127 INFO   c.v.r.c.G.ChineseCheckersGame - Board initialized
+07.12.2021 22:47:04.130 INFO   c.v.r.c.G.ChineseCheckersGame - Game started.
+07.12.2021 22:47:04.130 INFO   c.v.r.c.G.ChineseCheckersGame - Game initialized.
+07.12.2021 22:47:13.070 INFO   c.v.r.c.F.ApplicationFrame - Началась демонстрационная игра
+07.12.2021 22:47:24.738 INFO   c.v.r.c.Main - Application closed
+07.12.2021 22:48:16.086 INFO   c.v.r.c.Main - Application started
+07.12.2021 22:48:17.156 INFO   c.v.r.c.G.ChineseCheckersGame - Board initialized
+07.12.2021 22:48:17.157 INFO   c.v.r.c.G.ChineseCheckersGame - Game started.
+07.12.2021 22:48:17.157 INFO   c.v.r.c.G.ChineseCheckersGame - Game initialized.
+07.12.2021 22:48:20.037 INFO   c.v.r.c.F.ApplicationFrame - Началась демонстрационная игра
+07.12.2021 22:48:31.615 INFO   c.v.r.c.Main - Application closed
+07.12.2021 22:50:00.560 INFO   c.v.r.c.Main - Application started
+07.12.2021 22:50:01.529 INFO   c.v.r.c.G.ChineseCheckersGame - Board initialized
+07.12.2021 22:50:01.530 INFO   c.v.r.c.G.ChineseCheckersGame - Game started.
+07.12.2021 22:50:01.530 INFO   c.v.r.c.G.ChineseCheckersGame - Game initialized.
+07.12.2021 22:50:04.255 INFO   c.v.r.c.F.ApplicationFrame - Началась демонстрационная игра
+07.12.2021 22:50:06.053 INFO   c.v.r.c.Main - Application closed
+07.12.2021 22:51:26.225 INFO   c.v.r.c.Main - Application started
+07.12.2021 22:51:27.295 INFO   c.v.r.c.G.ChineseCheckersGame - Board initialized
+07.12.2021 22:51:27.296 INFO   c.v.r.c.G.ChineseCheckersGame - Game started.
+07.12.2021 22:51:27.296 INFO   c.v.r.c.G.ChineseCheckersGame - Game initialized.
+07.12.2021 22:51:40.920 INFO   c.v.r.c.F.ApplicationFrame - Началась демонстрационная игра
+07.12.2021 22:52:11.080 INFO   c.v.r.c.Main - Application started
+07.12.2021 22:52:11.977 INFO   c.v.r.c.G.ChineseCheckersGame - Board initialized
+07.12.2021 22:52:11.978 INFO   c.v.r.c.G.ChineseCheckersGame - Game started.
+07.12.2021 22:52:11.978 INFO   c.v.r.c.G.ChineseCheckersGame - Game initialized.
+07.12.2021 22:52:15.022 INFO   c.v.r.c.F.ApplicationFrame - Началась демонстрационная игра
+07.12.2021 22:52:20.035 INFO   c.v.r.c.G.ChineseCheckersGame - 0 player's checker 4 successfully moved at position 69
+07.12.2021 22:57:38.014 INFO   c.v.r.c.Main - Application started
+07.12.2021 22:57:38.956 INFO   c.v.r.c.G.ChineseCheckersGame - Board initialized
+07.12.2021 22:57:38.956 INFO   c.v.r.c.G.ChineseCheckersGame - Game started.
+07.12.2021 22:57:38.956 INFO   c.v.r.c.G.ChineseCheckersGame - Game initialized.
+07.12.2021 22:57:42.512 INFO   c.v.r.c.F.ApplicationFrame - Началась демонстрационная игра
+07.12.2021 22:57:47.520 INFO   c.v.r.c.G.ChineseCheckersGame - 0 player's checker 4 successfully moved at position 69
+07.12.2021 22:58:41.562 INFO   c.v.r.c.Main - Application started
+07.12.2021 22:58:42.456 INFO   c.v.r.c.G.ChineseCheckersGame - Board initialized
+07.12.2021 22:58:42.457 INFO   c.v.r.c.G.ChineseCheckersGame - Game started.
+07.12.2021 22:58:42.457 INFO   c.v.r.c.G.ChineseCheckersGame - Game initialized.
+07.12.2021 22:58:45.415 INFO   c.v.r.c.F.ApplicationFrame - Началась демонстрационная игра
+07.12.2021 22:58:50.424 INFO   c.v.r.c.G.ChineseCheckersGame - 0 player's checker 4 successfully moved at position 69
+07.12.2021 23:00:58.665 INFO   c.v.r.c.Main - Application started
+07.12.2021 23:00:59.543 INFO   c.v.r.c.G.ChineseCheckersGame - Board initialized
+07.12.2021 23:00:59.544 INFO   c.v.r.c.G.ChineseCheckersGame - Game started.
+07.12.2021 23:00:59.544 INFO   c.v.r.c.G.ChineseCheckersGame - Game initialized.
+07.12.2021 23:01:02.756 INFO   c.v.r.c.F.ApplicationFrame - Началась демонстрационная игра
+07.12.2021 23:01:07.764 INFO   c.v.r.c.G.ChineseCheckersGame - 0 player's checker 4 successfully moved at position 69
+07.12.2021 23:01:17.770 INFO   c.v.r.c.G.ChineseCheckersGame - 1 player's checker 36 successfully moved at position 99
+07.12.2021 23:03:41.793 INFO   c.v.r.c.Main - Application closed
+07.12.2021 23:03:43.090 INFO   c.v.r.c.Main - Application closed
+07.12.2021 23:05:59.708 INFO   c.v.r.c.Main - Application started
+07.12.2021 23:06:00.486 INFO   c.v.r.c.G.ChineseCheckersGame - Board initialized
+07.12.2021 23:06:00.487 INFO   c.v.r.c.G.ChineseCheckersGame - Game started.
+07.12.2021 23:06:00.487 INFO   c.v.r.c.G.ChineseCheckersGame - Game initialized.
+07.12.2021 23:06:02.717 INFO   c.v.r.c.Main - Application closed
+07.12.2021 23:07:32.223 INFO   c.v.r.c.Main - Application started
+07.12.2021 23:07:33.083 INFO   c.v.r.c.G.ChineseCheckersGame - Board initialized
+07.12.2021 23:07:33.083 INFO   c.v.r.c.G.ChineseCheckersGame - Game started.
+07.12.2021 23:07:33.084 INFO   c.v.r.c.G.ChineseCheckersGame - Game initialized.
+07.12.2021 23:07:43.715 INFO   c.v.r.c.F.ApplicationFrame - Началась демонстрационная игра
+07.12.2021 23:07:53.728 INFO   c.v.r.c.G.ChineseCheckersGame - 0 player's checker 4 successfully moved at position 69
+07.12.2021 23:08:08.735 INFO   c.v.r.c.G.ChineseCheckersGame - 1 player's checker 36 successfully moved at position 99
+07.12.2021 23:08:23.743 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 7 is not current player's checker
+07.12.2021 23:08:38.753 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 35 is not current player's checker
+07.12.2021 23:09:19.152 INFO   c.v.r.c.Main - Application closed
+07.12.2021 23:09:44.806 INFO   c.v.r.c.Main - Application started
+07.12.2021 23:09:45.631 INFO   c.v.r.c.G.ChineseCheckersGame - Board initialized
+07.12.2021 23:09:45.632 INFO   c.v.r.c.G.ChineseCheckersGame - Game started.
+07.12.2021 23:09:45.632 INFO   c.v.r.c.G.ChineseCheckersGame - Game initialized.
+07.12.2021 23:09:47.901 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 37 is not current player's checker
+07.12.2021 23:09:48.882 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 37 is not current player's checker
+07.12.2021 23:09:52.518 INFO   c.v.r.c.G.ChineseCheckersGame - 0 player's checker 6 successfully moved at position 69
+07.12.2021 23:09:55.087 INFO   c.v.r.c.G.ChineseCheckersGame - 1 player's checker 38 successfully moved at position 97
+07.12.2021 23:09:57.364 INFO   c.v.r.c.G.ChineseCheckersGame - 0 player's checker 7 successfully moved at position 65
+07.12.2021 23:10:00.015 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 39 is not current player's checker
+07.12.2021 23:10:01.266 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 39 is not current player's checker
+07.12.2021 23:10:02.191 INFO   c.v.r.c.F.ApplicationFrame - Ход перешёл к игроку 1
+07.12.2021 23:10:03.634 INFO   c.v.r.c.G.ChineseCheckersGame - Move from 39 to 94 is not possible.
+07.12.2021 23:10:04.707 INFO   c.v.r.c.G.ChineseCheckersGame - Move from 39 to 94 is not possible.
+07.12.2021 23:10:05.709 INFO   c.v.r.c.G.ChineseCheckersGame - Move from 39 to 94 is not possible.
+07.12.2021 23:10:07.862 INFO   c.v.r.c.G.ChineseCheckersGame - Move from 39 to 94 is not possible.
+07.12.2021 23:10:08.471 INFO   c.v.r.c.G.ChineseCheckersGame - Move from 39 to 94 is not possible.
+07.12.2021 23:10:09.868 INFO   c.v.r.c.G.ChineseCheckersGame - Move from 39 to 94 is not possible.
+07.12.2021 23:10:10.481 INFO   c.v.r.c.G.ChineseCheckersGame - 1 player's checker 97 successfully moved at position 94
+07.12.2021 23:10:12.760 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 39 is not current player's checker
+07.12.2021 23:10:13.433 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 39 is not current player's checker
+07.12.2021 23:10:13.931 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 39 is not current player's checker
+07.12.2021 23:10:14.288 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 39 is not current player's checker
+07.12.2021 23:10:15.226 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 39 is not current player's checker
+07.12.2021 23:10:16.060 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 39 is not current player's checker
+07.12.2021 23:10:17.472 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 39 is not current player's checker
+07.12.2021 23:10:18.894 INFO   c.v.r.c.F.ApplicationFrame - Ход перешёл к игроку 1
+07.12.2021 23:10:20.864 INFO   c.v.r.c.G.ChineseCheckersGame - Move is not possible. 69 is not current player's checker
+07.12.2021 23:10:21.734 INFO   c.v.r.c.G.ChineseCheckersGame - 1 player's checker 39 successfully moved at position 96
+07.12.2021 23:10:23.519 INFO   c.v.r.c.Main - Application closed

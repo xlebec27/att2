@@ -71,7 +71,6 @@ public class ChineseCheckersGame {
         board = new BoardSetter().setBoard(players);;
         log.info("Board initialized");
         status = GameStatus.ACTIVE;
-        nextTurn();
         log.info("Game started.");
     }
 
